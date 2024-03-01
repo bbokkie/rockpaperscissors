@@ -1,0 +1,56 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kiwi+Maru&family=Mansalva&family=Press+Start+2P&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Rubik+Mono+One&family=Sono:wght@200..800&display=swap" rel="stylesheet">
+<title>Rock Paper Scissor</title>
+</head>
+<body>
+	<section class="game">
+		<div class="title">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+		
+		<div class="score"> 
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	 
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+	
+		<div class="move">Choose your move</div>
+		
+		
+		<div class="movesleft">Moves Left: 10 </div>
+		
+		<div class="options">
+			<button class="rock"><img src="./Rock.png">Rock</button>
+			<button class="paper"><img src="./paper.png">Paper</button>
+			<button class="scissor"><img src="./scissors.png">Scissors</button> 
+		</div>
+		
+		<!--Final result of game -->
+		<div class="result"></div>
+		
+		<!--Reload the game -->
+		<button class="reload"></button>
+
+	</section>
+
+	<script src="app.js"></script>
+</body>
+</html>
