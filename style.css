@@ -90,3 +90,6 @@
 img {
     height: 50px;
 }
+
+button:hover {
+		box-shadow: 0 12px 16px 0 #5979b2, 0 17px 50px 0 #5979b2; }
